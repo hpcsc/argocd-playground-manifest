@@ -3,6 +3,7 @@
 SHELL = bash
 
 include kustomize/Makefile
+include helm/Makefile
 
 ##@ Help
 .PHONY: help
