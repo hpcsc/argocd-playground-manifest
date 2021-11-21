@@ -7,7 +7,6 @@ spec:
     - name: http
       port: 8888
       targetPort: 8888
-      nodePort: 30099
   selector:
     app: argocd-playground-app
   type: NodePort

@@ -7,4 +7,4 @@ image:
   tag: ""
 
 service:
-  nodePort: 30099
+  nodePort: 30098
