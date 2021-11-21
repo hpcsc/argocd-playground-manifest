@@ -9,6 +9,9 @@ commonLabels:
 bases:
 - ../../base
 
+resources:
+  - namespace.yaml
+
 configMapGenerator:
 - name: argocd-playground-app-config
   literals:
